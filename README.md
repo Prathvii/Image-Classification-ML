@@ -20,31 +20,33 @@ This project involves building a machine learning model to classify images into 
 - **OpenCV**: Library for image processing
 - **Matplotlib**: Library for plotting and visualization
 
+
+```markdown
+# Image Classification Project
+
 ## Installation
 
-1. **Clone the repository to your local machine.**
-   ```bash
-   git clone https://github.com/yourusername/image-classification-project.git
-Navigate to the project directory.
-
-bash
-Copy code
+### Navigate to the project directory.
+```bash
 cd image-classification-project
-Create a virtual environment and activate it.
+```
 
-bash
-Copy code
+### Create a virtual environment and activate it.
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install the required packages.
+```
 
-bash
-Copy code
+### Install the required packages.
+```bash
 pip install -r requirements.txt
-Dataset
-Download the dataset: You can download the dataset from [link-to-dataset]. Ensure the dataset is organized in the following structure:
-bash
-Copy code
+```
+
+## Dataset
+
+### Download the dataset:
+You can download the dataset from [link-to-dataset]. Ensure the dataset is organized in the following structure:
+```bash
 dataset/
     train/
         class1/
@@ -56,36 +58,48 @@ dataset/
         class2/
         ...
         class50/
-Training the Model
-Run the training script.
+```
 
-bash
-Copy code
+## Training the Model
+
+### Run the training script.
+```bash
 python train.py
-Adjust hyperparameters: You can adjust hyperparameters such as learning rate, batch size, and epochs in the train.py script.
+```
 
-Classifying Images
-Run the inference script to classify new images.
+### Adjust hyperparameters:
+You can adjust hyperparameters such as learning rate, batch size, and epochs in the `train.py` script.
 
-bash
-Copy code
+## Classifying Images
+
+### Run the inference script to classify new images.
+```bash
 python classify.py --image path_to_image
-The script will output the predicted class for the input image.
+```
 
-Project Structure
-train.py: Script for training the model.
-classify.py: Script for classifying new images.
-model/: Directory containing the trained model.
-data/: Directory containing the dataset (not included in the repository).
-requirements.txt: File containing the list of required packages.
-Contributing
+### The script will output the predicted class for the input image.
+
+## Project Structure
+
+- `train.py`: Script for training the model.
+- `classify.py`: Script for classifying new images.
+- `model/`: Directory containing the trained model.
+- `data/`: Directory containing the dataset (not included in the repository).
+- `requirements.txt`: File containing the list of required packages.
+
+## Contributing
+
 Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch (git checkout -b feature/your-feature).
-Make your changes.
-Commit your changes (git commit -am 'Add new feature').
-Push to the branch (git push origin feature/your-feature).
-Create a new Pull Request.
-Authors
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Create a new Pull Request.
+
+## Authors
+
 Prathvii
+```
+
